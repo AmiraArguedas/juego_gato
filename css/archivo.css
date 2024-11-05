@@ -1,0 +1,61 @@
+/* Estilos para el juego del gato */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Tablero de 3x3 */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+
+
+
+
+

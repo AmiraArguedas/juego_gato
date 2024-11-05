@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Gato</title>
+    <link rel="stylesheet" href="css/archivo.css">
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+
+    <h1>Juego del Gato</h1>
+
+    <!-- Tablero usando una tabla -->
+    <table id="board">
+        <tr>
+            <td onclick="haceMovimiento(0,0)"></td>
+            <td onclick="haceMovimiento(0,1)"></td>
+            <td onclick="haceMovimiento(0,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="haceMovimiento(1,0)"></td>
+            <td onclick="haceMovimiento(1,1)"></td>
+            <td onclick="haceMovimiento(1,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="haceMovimiento(2,0)"></td>
+            <td onclick="haceMovimiento(2,1)"></td>
+            <td onclick="haceMovimiento(2,2)"></td>
+        </tr>
+    </table>
+
+    <div id="message"></div>
+
+    <div>
+        <button id="restartButton" onclick="reiniciarJuego()">Reiniciar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
